@@ -1,0 +1,25 @@
+4   # 1: GN 2: GN with FS 3: ADMM 4: ADMM with FS 
+2   # 1: isotropic inversion 2: anisotropic inversion
+30  # the maximum iterations
+1.0 # the threshold value of data misfit
+1e-10   # the noise floor for data weighting matrix
+1 # the initial value of regularization parameter for rho_xx
+1 # the initial value of regularization parameter for rho_yy
+1 # the attenuation rate of regularization parameter
+0.02    # the threshold value of rms for determining regularization parameter
+2000    # the upper bound of the resistivity value
+1.0 # the lower bound of the resistivity value
+1.0 # the coefficients of upper and lower bound transformation
+180 # the number of the layers
+100  # the thickness of the first layer
+1.025    # the expansion factor of the thickness 
+0   # the thickness of the seawater
+0.32    # the resistivity of the seawater
+40   # the series of the fourier expansion
+3.14   # a parameter for fourier expansion
+0.01 # the coefficient of L1 penalty term for ADMM
+0.02 # the coefficient of quadratic penalty term for ADMM
+0.0001 # model disturbance for jacobian calculation
+3   # the number of the tried step length for model update
+0.5 # the decay factor of step length
+100 # the resistivity of the initial model
